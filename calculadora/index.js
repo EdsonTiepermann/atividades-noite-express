@@ -22,7 +22,12 @@ app.get('/calculadora/somar', (req, res) => {
     res.send(`A soma é: ${result}`);
 })
 
+// app.get('/calculadora/subtrair', (req, res) => {
 
+//     const result = op.subtracao(req.body)
+
+//     res.send(`A subtracao é: ${result}`);
+// })
 
 app.listen(porta, () => {
     console.log(`O servidor iniciou na porta ${porta}`);

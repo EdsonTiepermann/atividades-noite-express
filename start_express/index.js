@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/segunda-rota', (req, res) => {
-  res.send('segunda rota');
+  res.send('segunda rotaa');
 })
 
 app.get('/prime-day/:produto', (req, res) => {
@@ -17,7 +17,6 @@ res.send(`O produto comprado foi: ${req.params.produto}`);
 
 app.listen(porta, () => {
   console.log(`O servidor iniciou na porta ${porta}`);
-  
 })
 
 
