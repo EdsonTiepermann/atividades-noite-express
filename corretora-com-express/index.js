@@ -13,7 +13,7 @@ app.post("/corretora", (req, res) => {
 
     const code = corretora.store(req.body)
 
-    res.status(code).json()
+    res.status(code).json()  
 
     // const result = corretora.store(req.body);
     // res.status(result.status).json({ message: result.message });
